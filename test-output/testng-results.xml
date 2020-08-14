@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SDFC Application Test Suite" duration-ms="65866" started-at="2020-08-08T18:41:41 MDT" finished-at="2020-08-08T18:42:47 MDT">
+    <groups>
+    </groups>
+    <test name=" SDFC App Test Cases" duration-ms="65866" started-at="2020-08-08T18:41:41 MDT" finished-at="2020-08-08T18:42:47 MDT">
+      <class name="com.sdfc.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="SDFC_HomePage()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@27f723]" name="SDFC_HomePage" is-config="true" duration-ms="14215" started-at="2020-08-08T18:42:00 MDT" finished-at="2020-08-08T18:42:14 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SDFC_HomePage -->
+        <test-method status="PASS" signature="ValidateUserName()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@27f723]" name="ValidateUserName" duration-ms="34" started-at="2020-08-08T18:42:14 MDT" finished-at="2020-08-08T18:42:14 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserName -->
+        <test-method status="PASS" signature="VerifyDropDown()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@27f723]" name="VerifyDropDown" duration-ms="11340" started-at="2020-08-08T18:42:14 MDT" finished-at="2020-08-08T18:42:26 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropDown -->
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@27f723]" name="validateHomePageTitleTest" duration-ms="17" started-at="2020-08-08T18:42:26 MDT" finished-at="2020-08-08T18:42:26 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@27f723]" name="TearDown" is-config="true" duration-ms="4324" started-at="2020-08-08T18:42:26 MDT" finished-at="2020-08-08T18:42:30 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sdfc.qa.testcases.HomePageTest -->
+      <class name="com.sdfc.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="INIT()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@5f3a4b84]" name="INIT" is-config="true" duration-ms="7935" started-at="2020-08-08T18:41:42 MDT" finished-at="2020-08-08T18:41:50 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INIT -->
+        <test-method status="PASS" signature="LoginToSDFC()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@5f3a4b84]" name="LoginToSDFC" duration-ms="6020" started-at="2020-08-08T18:41:50 MDT" finished-at="2020-08-08T18:41:56 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSDFC -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@5f3a4b84]" name="TearDown" is-config="true" duration-ms="4320" started-at="2020-08-08T18:41:56 MDT" finished-at="2020-08-08T18:42:00 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sdfc.qa.testcases.LoginPageTest -->
+      <class name="com.sdfc.qa.testcases.SettingPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@670b40af]" name="SetUp" is-config="true" duration-ms="15622" started-at="2020-08-08T18:42:30 MDT" finished-at="2020-08-08T18:42:46 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Select_Display_Layout()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@670b40af]" name="Select_Display_Layout" duration-ms="1740" started-at="2020-08-08T18:42:46 MDT" finished-at="2020-08-08T18:42:47 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Display_Layout -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@670b40af]" name="TearDown" is-config="true" duration-ms="64" started-at="2020-08-08T18:42:47 MDT" finished-at="2020-08-08T18:42:47 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sdfc.qa.testcases.SettingPageTest -->
+    </test> <!--  SDFC App Test Cases -->
+  </suite> <!-- SDFC Application Test Suite -->
+</testng-results>
