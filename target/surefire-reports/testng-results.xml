@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27363" started-at="2020-08-28T09:56:46 MDT" finished-at="2020-08-28T09:57:14 MDT">
+  <suite name="Suite" duration-ms="28614" started-at="2020-08-28T10:14:17 MDT" finished-at="2020-08-28T10:14:46 MDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27363" started-at="2020-08-28T09:56:46 MDT" finished-at="2020-08-28T09:57:14 MDT">
+    <test name="Test" duration-ms="28614" started-at="2020-08-28T10:14:17 MDT" finished-at="2020-08-28T10:14:46 MDT">
       <class name="com.sdfc.qa.testcases.SettingPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="SetUp" is-config="true" duration-ms="15136" started-at="2020-08-28T09:56:46 MDT" finished-at="2020-08-28T09:57:02 MDT">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="SetUp" is-config="true" duration-ms="16443" started-at="2020-08-28T10:14:17 MDT" finished-at="2020-08-28T10:14:34 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="Select_Display_Layout()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="Select_Display_Layout" duration-ms="11352" started-at="2020-08-28T09:57:02 MDT" finished-at="2020-08-28T09:57:13 MDT">
+        <test-method status="FAIL" signature="Select_Display_Layout()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="Select_Display_Layout" duration-ms="11269" started-at="2020-08-28T10:14:34 MDT" finished-at="2020-08-28T10:14:45 MDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Campaigns
@@ -51,7 +51,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Display_Layout -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="TearDown" is-config="true" duration-ms="840" started-at="2020-08-28T09:57:13 MDT" finished-at="2020-08-28T09:57:14 MDT">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.SettingPageTest@2a17b7b6]" name="TearDown" is-config="true" duration-ms="866" started-at="2020-08-28T10:14:45 MDT" finished-at="2020-08-28T10:14:46 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.737 s <<< FAILURE! - in TestSuite
-com.sdfc.qa.testcases.SettingPageTest.Select_Display_Layout  Time elapsed: 11.36 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.991 s <<< FAILURE! - in TestSuite
+com.sdfc.qa.testcases.SettingPageTest.Select_Display_Layout  Time elapsed: 11.278 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 Cannot locate option with text: Campaigns
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
