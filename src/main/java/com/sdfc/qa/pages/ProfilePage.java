@@ -24,7 +24,7 @@ public class ProfilePage extends TestBase{
 	@FindBy(xpath= "//a[contains(text(),'About')]") WebElement AboutTab;
 	@FindBy(xpath= "//input[@id='lastName']") WebElement LastName;
 	@FindBy(xpath= "//input[@class='zen-btn zen-primaryBtn zen-pas']") WebElement  SaveAllButton ;
-	
+	                      
 	 
     public ProfilePage (){
 		

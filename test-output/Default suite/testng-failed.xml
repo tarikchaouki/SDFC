@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sdfc.qa.testcases.ProfilePageTest">
+      <class name="com.sdfc.qa.testcases.SettingPageTest">
         <methods>
-          <include name="UploadChosenFile"/>
-          <include name="EditPf"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
+          <include name="Select_Display_Layout"/>
         </methods>
-      </class> <!-- com.sdfc.qa.testcases.ProfilePageTest -->
+      </class> <!-- com.sdfc.qa.testcases.SettingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
