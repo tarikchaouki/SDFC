@@ -117,12 +117,7 @@
     <version>2.41.2</version>
 </dependency>
 
- <!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
-<dependency>
-    <groupId>javax.inject</groupId>
-    <artifactId>javax.inject</artifactId>
-    <version>1</version>
-</dependency>
+
  
   </dependencies>
   
@@ -130,7 +125,13 @@
  <build>
   <plugins>
     <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
+    <groupId>javax.inject</groupId>
+    <artifactId>javax.inject</artifactId>
+    <version>1</version>
+     </plugin>
+     
+     <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.8.1</version>
     <configuration>
