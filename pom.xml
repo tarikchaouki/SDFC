@@ -121,13 +121,8 @@
     
  <build>
   <plugins>
+ 
     <plugin>
-    <groupId>javax.inject</groupId>
-    <artifactId>javax.inject</artifactId>
-    <version>1</version>
-     </plugin>
-     
-     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.8.1</version>
@@ -159,7 +154,7 @@
     <version>3.0.0-M1</version>
     <configuration>
     <suiteXmlFiles>
-        <suiteXmlFile>C:\Users\calci\eclipse-workspace\SFDC\TestNG1.xml</suiteXmlFile>
+        <suiteXmlFile>TestNG1.xml</suiteXmlFile>
     </suiteXmlFiles>
     </configuration>
     </plugin>
