@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28512" started-at="2020-08-31T08:54:08 MDT" finished-at="2020-08-31T08:54:37 MDT">
+  <suite name="SDFC Application Test Suite" duration-ms="16706" started-at="2020-08-31T09:27:52 MDT" finished-at="2020-08-31T09:28:09 MDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28512" started-at="2020-08-31T08:54:08 MDT" finished-at="2020-08-31T08:54:37 MDT">
-      <class name="com.sdfc.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="SDFC_HomePage()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@60285225]" name="SDFC_HomePage" is-config="true" duration-ms="15950" started-at="2020-08-31T08:54:09 MDT" finished-at="2020-08-31T08:54:25 MDT">
+    <test name=" SDFC App Test Cases" duration-ms="16706" started-at="2020-08-31T09:27:52 MDT" finished-at="2020-08-31T09:28:09 MDT">
+      <class name="com.sdfc.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="INIT()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@7113b13f]" name="INIT" is-config="true" duration-ms="9846" started-at="2020-08-31T09:27:52 MDT" finished-at="2020-08-31T09:28:02 MDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SDFC_HomePage -->
-        <test-method status="PASS" signature="ValidateUserName()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@60285225]" name="ValidateUserName" duration-ms="207" started-at="2020-08-31T08:54:25 MDT" finished-at="2020-08-31T08:54:25 MDT">
+        </test-method> <!-- INIT -->
+        <test-method status="PASS" signature="LoginToSDFC()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@7113b13f]" name="LoginToSDFC" duration-ms="4925" started-at="2020-08-31T09:28:02 MDT" finished-at="2020-08-31T09:28:07 MDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateUserName -->
-        <test-method status="PASS" signature="VerifyDropDown()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@60285225]" name="VerifyDropDown" duration-ms="10197" started-at="2020-08-31T08:54:25 MDT" finished-at="2020-08-31T08:54:35 MDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDropDown -->
-        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@60285225]" name="validateHomePageTitleTest" duration-ms="72" started-at="2020-08-31T08:54:35 MDT" finished-at="2020-08-31T08:54:35 MDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.HomePageTest@60285225]" name="TearDown" is-config="true" duration-ms="1496" started-at="2020-08-31T08:54:35 MDT" finished-at="2020-08-31T08:54:37 MDT">
+        </test-method> <!-- LoginToSDFC -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@7113b13f]" name="TearDown" is-config="true" duration-ms="1524" started-at="2020-08-31T09:28:07 MDT" finished-at="2020-08-31T09:28:09 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.sdfc.qa.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.sdfc.qa.testcases.LoginPageTest -->
+    </test> <!--  SDFC App Test Cases -->
+  </suite> <!-- SDFC Application Test Suite -->
 </testng-results>
