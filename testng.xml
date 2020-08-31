@@ -9,9 +9,7 @@
    <test name=" SDFC App Test Cases" >
     <classes>
       <class name = "com.sdfc.qa.testcases.LoginPageTest"></class>
-      <class name = "com.sdfc.qa.testcases.HomePageTest" ></class>
-       <class name = "com.sdfc.qa.testcases.SettingPageTest" ></class>
-    </classes>
+   </classes>
    
   </test>
-  </suite>
+  </suite>  

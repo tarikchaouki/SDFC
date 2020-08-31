@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sdfc.qa.testcases.SettingPageTest">
+      <class name="com.sdfc.qa.testcases.LoginPageTest">
         <methods>
           <include name="TearDown"/>
-          <include name="SetUp"/>
-          <include name="Select_Display_Layout"/>
+          <include name="INIT"/>
+          <include name="LoginToSDFC"/>
         </methods>
-      </class> <!-- com.sdfc.qa.testcases.SettingPageTest -->
+      </class> <!-- com.sdfc.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

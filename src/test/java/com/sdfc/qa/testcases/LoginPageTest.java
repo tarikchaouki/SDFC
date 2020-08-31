@@ -25,9 +25,8 @@ public class LoginPageTest extends TestBase {
 	   LoginPageTest(){
 		     super();
 	   }
-	
-	
-	@BeforeClass
+	   
+	   @BeforeClass
 	public void INIT() {
 		
 		initialization ();  

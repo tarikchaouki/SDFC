@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name=" SDFC App Test Cases(failed)">
     <classes>
-      <class name="com.sdfc.qa.testcases.SettingPageTest">
+      <class name="com.sdfc.qa.testcases.LoginPageTest">
         <methods>
           <include name="TearDown"/>
-          <include name="SetUp"/>
-          <include name="Select_Display_Layout"/>
+          <include name="INIT"/>
+          <include name="LoginToSDFC"/>
         </methods>
-      </class> <!-- com.sdfc.qa.testcases.SettingPageTest -->
+      </class> <!-- com.sdfc.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!--  SDFC App Test Cases(failed) -->
 </suite> <!-- Failed suite [SDFC Application Test Suite] -->

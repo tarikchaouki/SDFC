@@ -23,8 +23,7 @@ import com.sdfc.qa.util.TestUtil;
 
 import bsh.util.Util;
 
-
-//@Listeners(TestListenerUtil.class)
+@Listeners(TestListenerUtil.class)
 public class HomePageTest extends TestBase {
 		
 		
