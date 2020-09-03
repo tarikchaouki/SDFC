@@ -3,7 +3,7 @@
 <suite thread-count="5"  name = "SDFC Application Test Suite" >
 
 <listeners>
-<listener class-name="com.sdfc.qa.util.TestListenerUtil" />
+<listener class-name="com.sdfc.qa.util.TestListenerUtil" > </listener>
 </listeners>
 
    <test name=" SDFC App Test Cases" >

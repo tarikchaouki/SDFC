@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SDFC Application Test Suite" duration-ms="13710" started-at="2020-09-01T08:08:24 MDT" finished-at="2020-09-01T08:08:38 MDT">
+  <suite name="SDFC Application Test Suite" duration-ms="15368" started-at="2020-09-01T09:49:33 MDT" finished-at="2020-09-01T09:49:49 MDT">
     <groups>
     </groups>
-    <test name=" SDFC App Test Cases" duration-ms="13710" started-at="2020-09-01T08:08:24 MDT" finished-at="2020-09-01T08:08:38 MDT">
+    <test name=" SDFC App Test Cases" duration-ms="15368" started-at="2020-09-01T09:49:33 MDT" finished-at="2020-09-01T09:49:49 MDT">
       <class name="com.sdfc.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="INIT()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="INIT" is-config="true" duration-ms="8703" started-at="2020-09-01T08:08:24 MDT" finished-at="2020-09-01T08:08:33 MDT">
+        <test-method status="PASS" signature="INIT()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="INIT" is-config="true" duration-ms="10749" started-at="2020-09-01T09:49:34 MDT" finished-at="2020-09-01T09:49:44 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- INIT -->
-        <test-method status="PASS" signature="LoginToSDFC()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="LoginToSDFC" duration-ms="3795" started-at="2020-09-01T08:08:33 MDT" finished-at="2020-09-01T08:08:37 MDT">
+        <test-method status="PASS" signature="LoginToSDFC()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="LoginToSDFC" duration-ms="3460" started-at="2020-09-01T09:49:44 MDT" finished-at="2020-09-01T09:49:48 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToSDFC -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="TearDown" is-config="true" duration-ms="939" started-at="2020-09-01T08:08:37 MDT" finished-at="2020-09-01T08:08:38 MDT">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@59906517]" name="TearDown" is-config="true" duration-ms="881" started-at="2020-09-01T09:49:48 MDT" finished-at="2020-09-01T09:49:49 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
