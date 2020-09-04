@@ -1,0 +1,12 @@
+com\sdfc\qa\util\ExcelUtil.class
+com\sdfc\qa\util\TestUtil.class
+com\sdfc\qa\pages\SignUpPage.class
+com\sdfc\qa\util\ExcelOperations.class
+com\sdfc\qa\pages\LoginPage.class
+com\sdfc\qa\util\TestListenerUtil.class
+com\sdfc\qa\pages\ContactsPage.class
+com\sdfc\qa\pages\ProfilePage.class
+com\sdfc\qa\base\TestBase.class
+com\sdfc\qa\pages\HomePage.class
+com\sdfc\qa\pages\SettingPage.class
+com\sdfc\qa\util\ExtentReportSetUp.class

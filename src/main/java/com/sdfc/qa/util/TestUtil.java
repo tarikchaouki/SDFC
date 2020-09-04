@@ -26,7 +26,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.openxmlformats.schemas.spreadsheetml.x2006.main.STSortBy;
 
 import com.sdfc.qa.base.TestBase;
 
