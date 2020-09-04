@@ -9,7 +9,6 @@ import org.apache.commons.collections4.map.HashedMap;
 import org.apache.commons.compress.archivers.dump.InvalidFormatException;
 import org.apache.commons.compress.archivers.zip.PKWareExtraHeader.HashAlgorithm;
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.hssf.converter.ExcelToHtmlUtils;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
