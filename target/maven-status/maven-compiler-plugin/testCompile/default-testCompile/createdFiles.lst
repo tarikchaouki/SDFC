@@ -1,0 +1,12 @@
+com\sdfc\qa\testcases\HomePageTest.class
+Tests\SDFC_Login_Page_Test.class
+PAGES\FbLoginPage.class
+Tests\TestBase.class
+PAGES\SDFC_Login_Page.class
+PAGES\Driver.class
+PAGES\ReusableModuls.class
+com\sdfc\qa\testcases\ContactsPageTest.class
+PAGES\ReusableMethods.class
+com\sdfc\qa\testcases\ProfilePageTest.class
+com\sdfc\qa\testcases\LoginPageTest.class
+com\sdfc\qa\testcases\SettingPageTest.class
