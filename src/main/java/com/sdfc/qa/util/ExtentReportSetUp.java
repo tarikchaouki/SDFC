@@ -6,7 +6,7 @@ import java.util.Date;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.relevantcodes.extentreports.model.Test;
+
 import com.sdfc.qa.base.TestBase;
 
 public class ExtentReportSetUp extends TestBase {

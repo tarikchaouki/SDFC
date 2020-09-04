@@ -5,24 +5,9 @@
   <groupId>org.training</groupId>
   <artifactId>selenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  
+ 
 
-
-  <name>selenium</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <dependencies>
-<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-server</artifactId>
-			<version>4.0.0-alpha-2</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+ <dependencies>
 		
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -30,7 +15,7 @@
     <version>4.0.0-alpha-6</version>
 </dependency>
 		
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -59,12 +44,6 @@
 
 <dependency>
     <groupId>org.apache.poi</groupId>
-    <artifactId>poi-scratchpad</artifactId>
-    <version>4.1.1</version>
-</dependency>
-
-<dependency>
-    <groupId>org.apache.poi</groupId>
     <artifactId>ooxml-schemas</artifactId>
     <version>1.4</version>
 </dependency>
@@ -80,42 +59,19 @@
     <version>2.7</version>
 </dependency>
 
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.13.3</version>
-</dependency>
 
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.13.3</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.xmlbeans</groupId>
-    <artifactId>xmlbeans</artifactId>
-    <version>3.1.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.poi/openxml4j -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>openxml4j</artifactId>
     <version>1.0-beta</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.0.1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency> 
-<dependency>
-			<groupId>io.github.bonigarcia</groupId>
+          <dependency>
+      	<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>4.0.0</version>
 		</dependency>
@@ -152,11 +108,11 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>TestNG1.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<appURL>${url}</appURL>
-					</systemPropertyVariables>
 				</configuration>
+			 
 			</plugin>
+			
+			
 		</plugins>
 
 	</build>
