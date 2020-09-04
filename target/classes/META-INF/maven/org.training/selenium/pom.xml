@@ -6,21 +6,19 @@
   <groupId>org.training</groupId>
   <artifactId>selenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <properties>
-  <maven.compiler.source>1.8</maven.compiler.source>
- <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
- 
-  
-  
+   
 <dependencies>
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>3.141.59</version>
 </dependency>
-		
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.141.59</version>
+</dependency>
 
 <dependency>
     <groupId>org.testng</groupId>
@@ -114,9 +112,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>TestNG1.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<appURL>https://www.salesforce.com/</appURL>
-					</systemPropertyVariables>
 				</configuration>
 			 
 			</plugin>
