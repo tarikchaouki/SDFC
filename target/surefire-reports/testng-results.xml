@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17157" started-at="2020-09-05T16:10:46 MDT" finished-at="2020-09-05T16:11:03 MDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17157" started-at="2020-09-05T16:10:46 MDT" finished-at="2020-09-05T16:11:03 MDT">
+      <class name="com.sdfc.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="INIT()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@2286778]" name="INIT" is-config="true" duration-ms="10275" started-at="2020-09-05T16:10:46 MDT" finished-at="2020-09-05T16:10:56 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INIT -->
+        <test-method status="PASS" signature="LoginToSDFC()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@2286778]" name="LoginToSDFC" duration-ms="5432" started-at="2020-09-05T16:10:56 MDT" finished-at="2020-09-05T16:11:02 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSDFC -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sdfc.qa.testcases.LoginPageTest@2286778]" name="TearDown" is-config="true" duration-ms="1263" started-at="2020-09-05T16:11:02 MDT" finished-at="2020-09-05T16:11:03 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sdfc.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
