@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name = "SDFC Application Test Suite" >
+
+<listeners>
+<listener class-name="com.sdfc.qa.util.TestListenerUtil" > </listener>
+</listeners>
+
+   <test thread-count="5"  name=" SDFC App Test Cases" >
+    <classes>
+      <class name = "com.sdfc.qa.testcases.LoginPageTest"></class>
+   </classes>
+   
+  </test> <!-- Test -->
+  </suite>  <!-- Suite -->
